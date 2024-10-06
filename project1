@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>اختبار الألوان</title>
+</head>
+<body>
+    <h1>ما هو لونك المفضل؟</h1>
+    <form>
+        <input type="radio" id="red" name="color" value="أحمر">
+        <label for="red">أحمر</label><br>
+        <input type="radio" id="blue" name="color" value="أزرق">
+        <label for="blue">أزرق</label><br>
+        <input type="radio" id="green" name="color" value="أخضر">
+        <label for="green">أخضر</label><br> <!-- هذه الإجابة الصحيحة -->
+        <input type="radio" id="yellow" name="color" value="أصفر">
+        <label for="yellow">أصفر</label><br>
+        <input type="submit" value="إرسال">
+    </form>
+</body>
+</html>
